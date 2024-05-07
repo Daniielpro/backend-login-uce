@@ -7,7 +7,7 @@ const port = process.env.PORT || 3001; // Utiliza el puerto proporcionado por He
 
 // Configuración de CORS para permitir solicitudes desde el frontend en Heroku
 app.use(cors({
-    origin: 'https://frontend-login-uce-ec73fb813087.herokuapp.com/',
+    origin: 'https://frontend-login-uce-ec73fb813087.herokuapp.com',
     credentials: true // Habilita el intercambio de cookies y encabezados de autenticación
 }));
 
