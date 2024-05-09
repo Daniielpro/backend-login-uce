@@ -35,5 +35,5 @@ jobs:
           heroku_api_key: HRKU-58793acd-0be7-4ce9-b156-e971e20e5ee1
           heroku_app_name: backend-login-uce1
           heroku_email: proanodaniel20@gmail.com
-          healthcheck: "https://backend-login-uce1-19598acdd797.herokuapp.com/health"
+          healthcheck: "https://backend-login-uce1-19598acdd797.herokuapp.com"
           rollbackonhealthcheckfailed: true
